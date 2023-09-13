@@ -1,0 +1,197 @@
+:root{
+    --link-color: #212121;
+    --heading-font-family: "Roboto", sans-serif;
+    --series-font-family:"Raleway", sans-serif;
+}   
+
+.studio-prezentation{
+    font-family: var(--heading-font-family);
+}
+.global-header{
+    background-color: white;
+
+}
+
+span.accent{
+    color: #2196F3;
+    font-family: var(--series-font-family);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35.96px;
+
+}
+.studio-prezentation h4{
+    font-family: var(--series-font-family);
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+
+.global-header .main-navigation a:link,
+.global-header .main-navigation a:visited{
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+.global-header .main-navigation a:hover{
+    color: #2196F3;
+    
+    
+}
+.global-header .main-navigation a:active{
+    color: #2196F3;
+
+}
+
+.global-header a{
+    color: #757575;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.global-header a:hover{
+    color: #2196F3;
+}
+.page-section-content{
+    background-color: #2F303A;   
+}
+h1 {
+    color: #FFFFFF;
+   font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.button-service{  
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer
+}
+ .button-service:hover{
+    background-color: #757575;
+}
+
+.about-us p{
+    color: #757575;
+   font-size: 14px;
+   line-height: 24px;
+
+    
+}
+
+.about-us h4{
+    color: #212121;
+   font-size: 14px;
+   line-height: 16.41px;
+    font-weight: 700;
+}
+ul{
+    list-style-type: none;
+}
+
+h2{
+    color: #212121;
+    font-size: 36px;
+    line-height: 42.19px;
+    font-weight: 700;
+}
+
+.our-team{
+    background-color: #F5F4FA;
+}
+
+h4{
+    color: #212121;
+   font-size: 16px;
+   line-height: 18.75px;
+    font-weight: 500;
+}
+.our-team span{
+    color: #757575;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+}
+
+.adress-information{
+    background-color: #2F303A;
+    font-family: var(--heading-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.adress-information .highlight{
+    color:#2196F3 ;
+    font-family: var(--series-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+.adress-information h4{
+    color: #FFFFFF;
+    font-family: var(--series-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+.useful-information{
+    color: #FFFFFF;
+   
+}
+.useful-information a{
+    color: #FFFFFF99;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+}
+.useful-information a:hover{
+    color: #2196F3;
+}
+
+.portofolio-button button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+    color: #212121;
+    
+}
+
+
+ .portofolio-button button:hover,
+ .portofolio-button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+ .portofolio-button button:active{
+    color: orange;
+ }
+ 
+
+.images .description-product{
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.images .category-product{
+    color:  #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+
+.nav-link current{
+    color: #4d0752;
+}
