@@ -8,22 +8,15 @@
     max-width: 1200;
     padding: 0 20px;
 }
-.studio-prezentation {
-  font-family: var(--heading-font-family);
-  border-bottom: 1px solid #ececec;
-  width: 1600px;
-  height: 80px;
-  margin: 0;
-}
-.global-header {
-  background-color: white;
-  display: flex;
-  height: 80px;
-}
+
+
+
 
 .nav-container {
   display: flex;
-  width: 80%;
+  color: #FFFFFF;
+  width: 1600px;
+  height: 80px;
   align-items: center;
   justify-content: space-around;
   align-items: center;
@@ -31,15 +24,16 @@
 
 .contact-container {
   display: flex;
-  width: 20%;
   justify-content: space-between;
   align-items: center;
+  gap: 40px;
 }
 
-.studio-prezentation .main-navigation ul {
+ .main-navigation ul {
   display: flex;
   width: 250px;
   justify-content: space-around;
+  gap: 50px;
 }
 
 span.accent {
@@ -87,8 +81,8 @@ span.accent {
   display: flex;
   background-color: #2f303a;
   width: 1600px;
-  height: 600px;
-  top: 94px;
+  height: 500px;
+  top: 80px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -123,22 +117,22 @@ span.accent {
   border-radius: 4px;
 }
 .button-service:hover {
-  background-color: #757575;
+
+  color: #757575;
 }
 .information-container {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 60px;
   width: 1200px;
-  height: 101px;
-  top: 94px;
-  left: 215px;
-  margin-top: 60px;
+  height: 90px;
+  padding-top: 94px;
+  padding-left: 215px;
 }
 .about-us {
   display: flex;
   align-items: baseline;
   justify-content: center;
+  gap: 30px;
 }
 
 .about-us p {
@@ -176,32 +170,28 @@ ul {
   display: flex;
   flex-direction: column;
   width: 1200px;
-  height: 386px;
+  height: 600px;
   top: 969px;
   left: 215px;
-  align-items: center;
-  margin-top: 94px;
-  text-align: center;
-
+  padding-top: 94px;
+  padding-left: 215px;
 }
 h2 {
   color: #212121;
-  display: flex;
-  font-size: 36px;
-  line-height: 42.19px;
-  letter-spacing: 0.03rem;
-  width: 198px;
-  height: 42px;
-  top: 94px;
-  left: 701px;
-  text-align: center;
+  font-family: var(--heading-font-family)
+  weight 700;
+  size: 36px;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-left: 450px;
+  
+  
 }
-.suggestive-images li {
-  display: inline;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
+.suggestive-images {
+  display: flex;
+  justify-content: center;
   gap: 30px;
+  padding-bottom: 50px;
 }
 .image1 {
   width: 370px;
@@ -229,14 +219,10 @@ h2 {
   background-color: #F5F4FA;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 1600px;
   height: 648px;
-  top: 94px;
-  margin-top: 130px;
+  top: 1449px;  
 
-  
 }
 
 .our-team-content {
@@ -245,10 +231,21 @@ h2 {
   align-items: center;
   text-align: center;
   flex-direction: row;
-  width: 1170px;
+  width: 1200px;
   height: 368px;
-  top: 94px;
+  top: 1635px;
   left: 215px;
+  padding-left: 215px;
+  gap: 30px;
+}
+
+.title-team{
+  color: #212121;
+  font-family: var(--heading-font-family);
+  font-weight:700;
+  size: 60px;
+  padding-left: 718px;
+  padding-top: 94px;
 }
 
 .team-card1 {
@@ -361,23 +358,19 @@ h2 {
   background-color: #2f303a;
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
   font-family: var(--heading-font-family);
   font-weight: 400;
   width: 1600px;
   height: 251px;
-  top: 94px;
+  top: 2097px;
 }
 
 .useful-information {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-left: 20px;
-  width: 231px;
-  height: 72px;
-  top: 94px;
-  left: 215px;
+
+  padding-left: 215px;
 }
 
 .adress-information .highlight {
@@ -386,7 +379,7 @@ h2 {
   font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
-  padding-left: 20px;
+  padding-left: 215px;
 }
 .adress-information h4 {
   color: #ffffff;
@@ -408,14 +401,13 @@ h2 {
   color: #2196f3;
 }
 .portofolio-container{
-      
+     display: flex;
+     flex-wrap: wrap;
     border: 0.1px solid #EEEEEE;
-    max-width: 1200px;
-    height: 1360px;
-    top: 174px;
-    left: 215px;
-    padding-bottom: 94px;
-
+    width: 1600px;
+    height: 1460px;
+  padding-left: 180px;
+  padding-bottom: 90px;
 }
 .portofolio-button button{
     background-color: #F5F4FA;
@@ -432,14 +424,11 @@ h2 {
 .portofolio-button{
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
     width: 1300px;
     height: 38px;
-   padding-top: 0px;
+   padding-top: 10px;
     left: 542px;
-    
+    padding-left: 342px;
     gap: 8px;
 }
 .portofolio-button button:hover,
@@ -453,20 +442,11 @@ h2 {
 .images{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
     justify-content: flex-start;
-    
 }
 .item{
-    
-    width: 370px;
-    height: 404px;
-    top: 94px;
-    left: 215px;
     border: 1px solid #EEEEEE;
-    
-    
-    
 }
 .product{
     width: 322px;
