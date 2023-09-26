@@ -139,6 +139,7 @@ span.accent {
 .information-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 94px;
 }
 .about-us {
@@ -158,7 +159,7 @@ span.accent {
   height: 75px;
   top: 94px;
   left: 215px;
-  justify-content: flex-start;
+  justify-content: center;
   padding-left: 6px;
 }
 
@@ -182,6 +183,7 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   height: 600px;
   top: 969px;
   left: 215px;
@@ -201,7 +203,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 
 }
 .image1 {
@@ -414,7 +416,6 @@ h2 {
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
-
     border: 1px solid #EEEEEE;
 }
 .portofolio-button button{
