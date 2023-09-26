@@ -10,23 +10,9 @@
     padding: 0 20px;
 }
 
-a .current-studio:link,
-a .current-studio:visited{
-  color: #FFFFFF;
-  background-color: #2196f3;
-}
- a .current-studio:active{
-  color: #2196f3;
-}
 
-a .current-portofolio:link,
-a .current-portofolio:visited{
-  color: #FFFFFF;
-  background-color: #2196f3;
-}
- a .current-portofolio:active{
-  color: #2196f3;
- }
+
+
 
 .nav-container {
   display: flex;
@@ -45,7 +31,19 @@ a .current-portofolio:visited{
   align-items: center;
   gap: 40px;
 }
-
+.current{
+  color: #2196F3;
+}
+a:link,
+a:hover{
+  color: #2196F3;
+}
+a:focus{
+  color: #2196F3;
+}
+.nav-link{
+  cursor: pointer;
+}
  .main-navigation ul{
   display: flex;
   flex-direction: row;
@@ -454,7 +452,7 @@ h2 {
 
 
 .portofolio-button button:hover,
-.portofolio-button:focus {
+.portofolio-button button:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
@@ -494,6 +492,4 @@ h2 {
     
 
   
-.nav-link current {
-  color: #4d0752;
-}
+
