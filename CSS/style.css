@@ -4,11 +4,7 @@
   --series-font-family: "Raleway", sans-serif;
 }
 
-.container{
-    margin: 0 auto;
-    max-width: 100px;
-    padding: 0 20px;
-}
+
 
 
 
@@ -16,19 +12,15 @@
 
 .nav-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   color: #FFFFFF;
-  width: 1600px;
-  height: 80px;
-  margin: auto;
+  
 }
 
 .contact-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  padding-left: 400px;
   gap: 40px;
 }
 .current{
@@ -44,27 +36,31 @@ a:focus{
 .nav-link{
   cursor: pointer;
 }
- .main-navigation ul{
+ .list-class{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  padding-left: 93px;
   gap: 50px;
 }
+
 .list-class li a{
   color: #212121;
 }
+
+
 span.accent {
   color: #2196f3;
   font-family: var(--series-font-family);
   font-weight: 400;
   font-size: 26px;
-  line-height: 35.96px;
 }
-.studio-prezentation h4 {
+.nav-title {
+  display: flex;
   font-family: var(--series-font-family);
   color: #000000;
   font-weight: 700;
   font-size: 26px;
-  line-height: 30.52px;
+  padding-left: 215px;
 }
 
 .global-header .main-navigation a:link {
@@ -85,7 +81,6 @@ span.accent {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16.41px;
 }
 
 .global-header a:hover {
@@ -94,9 +89,7 @@ span.accent {
 .page-section-content {
   display: flex;
   background-color: #2f303a;
-  width: 1600px;
-  height: 500px;
-  top: 80px;
+  height: 600px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -146,7 +139,6 @@ span.accent {
   display: flex;
   justify-content: center;
   gap: 30px;
-  
 }
 
 .about-us p {
@@ -160,7 +152,7 @@ span.accent {
   top: 94px;
   left: 215px;
   justify-content: center;
-  padding-left: 6px;
+  padding-left: 5px;
 }
 
 .about-us h4 {
@@ -181,12 +173,7 @@ ul {
 }
 .image-gallery {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  height: 600px;
-  top: 969px;
-  left: 215px;
 }
 h2 {
    display: block;
@@ -198,44 +185,20 @@ h2 {
    margin-block-end: 0.83em;
   letter-spacing: 0.03em;
   text-align: center;
+  
 }
 .suggestive-images {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
-
-}
-.image1 {
-  width: 370px;
-  height: 294px;
-  top: 94px;
-  left: 215px;
-
-}
-.image2 {
-  width: 370px;
-  height: 294px;
-  top: 94px;
-  left: 615px;
-  
-}
-
-.image3 {
-  width: 370px;
-  height: 294px;
-  top: 94px;
-  left: 1015px;
+  gap: 30px;
 }
 
 .our-team {
   background-color: #F5F4FA;
   display: flex;
   flex-direction: column;
-  width: 1600px;
   height: 638px;
-  top: 1449px; 
-
 }
 
 .our-team-content {
@@ -371,9 +334,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1600px;
   height: 251px;
-  top: 2097px;
 }
 
 .useful-information {
