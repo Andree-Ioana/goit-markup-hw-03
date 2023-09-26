@@ -49,7 +49,9 @@ a:focus{
   flex-direction: row;
   gap: 50px;
 }
-
+.list-class li a{
+  color: #212121;
+}
 span.accent {
   color: #2196f3;
   font-family: var(--series-font-family);
@@ -65,8 +67,7 @@ span.accent {
   line-height: 30.52px;
 }
 
-.global-header .main-navigation a:link,
-.global-header .main-navigation a:visited {
+.global-header .main-navigation a:link {
   color: var(--link-color);
   text-decoration: none;
   font-weight: 500;
@@ -137,16 +138,14 @@ span.accent {
 }
 .information-container {
   display: flex;
-  justify-content: space-between;
-  width: 1200px;
-  height: 90px;
+  justify-content: center;
   padding-top: 94px;
 }
 .about-us {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-left: 215px;
+  
 }
 
 .about-us p {
@@ -181,32 +180,29 @@ ul {
 }
 .image-gallery {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  width: 1200px;
+  flex-direction: column;
   height: 600px;
   top: 969px;
   left: 215px;
-  padding-top: 94px;
-  padding-left: 215px;
 }
 h2 {
-  color: #212121;
-  font-family: var(--heading-font-family);
-  font-weight: 700;
-  size: 50px;
+   display: block;
+   color: #212121;
+   font-family: (--series-font-family);
+   font-weight: 700;
+   font-size: 1.70em;
+   margin-block-start: 0.83em;
+   margin-block-end: 0.83em;
   letter-spacing: 0.03em;
-  padding-top: 94px;
-  padding-left: 480px;
-  
-  
+  text-align: center;
 }
 .suggestive-images {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 30px;
-  padding-bottom: 60px;
-  padding-left: 150px;
+
 }
 .image1 {
   width: 370px;
@@ -242,24 +238,19 @@ h2 {
 
 .our-team-content {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   text-align: center;
-  flex-direction: row;
-  width: 1200px;
   height: 368px;
   top: 1635px;
   left: 215px;
-  padding-left: 215px;
   gap: 30px;
 }
-
 .title-team{
   color: #212121;
   font-family: var(--heading-font-family);
   font-weight:700;
   size: 60px;
-  padding-left: 718px;
   padding-top: 50px;
 }
 .name-job{
@@ -421,11 +412,10 @@ h2 {
 .portofolio-container{
      display: flex;
      flex-wrap: wrap;
-    border: 0.1px solid #EEEEEE;
-    width: 1600px;
-    height: 1460px;
-  padding-left: 180px;
-  padding-bottom: 90px;
+     justify-content: center;
+     align-items: center;
+
+    border: 1px solid #EEEEEE;
 }
 .portofolio-button button{
     background-color: #F5F4FA;
@@ -441,12 +431,11 @@ h2 {
 }
 .portofolio-button{
     display: flex;
-    flex-direction: row;
-    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
     height: 38px;
-   padding-top: 10px;
     left: 542px;
-    padding-left: 450px;
     gap: 8px;
 }
 
@@ -463,10 +452,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: flex-start;
-}
-.item{
-    border: 1px solid #EEEEEE;
+    justify-content:center;
 }
 .product{
     width: 322px;
